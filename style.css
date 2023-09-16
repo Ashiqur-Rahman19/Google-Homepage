@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    float: right;
+    margin-top: 15px;
+}
+.header img{
+    width: 23px;
+    height: 23px;
+   margin-bottom: -12px;
+   padding: 5px;
+}
+.header a{
+    text-decoration: none;
+    color:#000000 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 10px ;
+    line-height: 40px;
+    display: inline;
+}
+.header input{
+    background-color: #0668fc;
+    border: none;
+    padding: 5px;
+    margin: 0px 10px;
+    border: 1px solid rgb(5, 88, 197);
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.header a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.header img:hover{
+    background-color: rgb(238, 235, 235);
+    border-radius: 50%;
+}
+.google img{
+    width: 272px;
+    height: 92px;
+    background-color: white;
+    margin-left: 505px;
+    margin-top: 160px;
+}
+.main{
+    margin: 0px auto;
+    text-align: center;
+}
+.searchbox input{
+    width: 400px;
+    padding: 12px 40px;
+    border-radius: 50px;
+    border:1px solid #e4e4e4;
+    margin-top: -10px;
+    outline: none;
+    position: relative;
+    box-shadow: -1px -1px 3px rgb(216, 215, 215),1px 1px 3px rgb(216, 215, 215);   
+}
+.icon img{
+    width: 20px;
+    margin-top: -29px;
+    margin-left: -230px;
+    position: absolute;
+}
+.icon1 img{
+    width: 12px;
+    margin-top: -29px;
+    margin-left: 170px;
+    position: absolute;
+}
+.icon2 img{
+    width: 20px;
+    margin-top: -31px;
+    margin-left: 200px;
+    position: absolute;
+}
+.sum{
+    padding: 15px 10px;
+    width: 120px;
+    height: 110px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.sum p {
+    padding: 10px;
+    font-size: 17px;
+    color: #012258;
+}
+.sum{
+    font-size: 25px;
+}
+.sum:hover{
+    background-color: #f0efef;
+    transition: 0.5s;
+}
+.plus{
+    width: 45%;
+    height: 40%;
+    background-color: rgb(241, 241, 241);
+    margin: auto;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+.sum:hover .plus{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+/* Mobile view*/
+
+@media(max-width:768px)
+{
+  .header{
+    width: 100%;
+    text-align: right; 
+  }
+  .header a{
+    font-size: 12px;
+    padding: 0px 5px ;
+  }
+
+  .header img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -11px;
+    
+  }
+
+  .header input{
+    font-size: 11px;
+    
+  }
+
+  .google{
+    width: 50%;
+    position: relative;
+  }
+.google img{
+    width: 250px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-left: 110px; 
+    
+}
+
+
+
+ 
+}
+
+
+
+
+ 
